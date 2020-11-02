@@ -207,7 +207,7 @@ router.get('/info-routes', (req, res) => {
     return res.send({ ok: false, msg: 'invalid source or from' });
   }
   if (from === to) {
-    return { ok: true, data: [from] };
+    return res.send({ ok: true, data: [from] });
   }
   const path = dfs(from, to);
   if(path.slice(-1)[0] === to) {
