@@ -7,4 +7,4 @@ npm install
 npm run
 ```
 
-Note: Please import file network-router.postman_collection.json to your postman check requests
+Note: Please import file network-router.postman_collection.json to your postman to check requests
